@@ -1,0 +1,64 @@
+﻿2018-11-04T19:38:31.2597231-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-11-04T19:38:31.2887991-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-11-04T19:38:31.2898024-05:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\PracticaSpecFlow.Specs\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-11-04T19:38:32.1706819-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-11-04T19:38:32.1706819-05:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\PracticaSpecFlow.Specs\bin\Debug\PracticaSpecFlow.Specs.dll
+2018-11-04T19:38:32.1716855-05:00;VSTestExecutionThread;Info;Profile: PracticaSpecFlow.Specs
+2018-11-04T19:38:43.7120482-05:00;Thread#12;Info;starting test run
+2018-11-04T19:38:43.7461393-05:00;Thread#12;Info;Discovering target: Default
+2018-11-04T19:38:43.7511524-05:00;Thread#12;Info;Discovering tests from assembly: D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\PracticaSpecFlow.Specs\bin\Debug\PracticaSpecFlow.Specs.dll
+Appdomain Disposed
+Test Suite Dump
+#0: PracticaSpecFlow.Specs/PracticaSpecFlow.Specs - 
+#1: Default - 
+#2: PracticaSpecFlow.Specs - 
+#3: Calculadora - 
+#4: Add two numbers - TestAssembly:PracticaSpecFlow.Specs/Feature:Calculadora/Scenario:Add+two+numbers
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for PracticaSpecFlow.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:pending: CalculadoraSteps.GivenIHaveEnteredIntoTheCalculator(50)
+Thread#0:B:And I have entered 70 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I press add
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Pending: One or more step definitions are not implemented yet.
+Thread#0:T:  CalculadoraSteps.GivenIHaveEnteredIntoTheCalculator(50)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Pending within 2.7753889 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2018-11-04T19:38:47.7268954-05:00;Thread#12;Info;test run finished
+2018-11-04T19:38:47.7299082-05:00;Thread#12;Info;publishing test results
+2018-11-04T19:38:48.0457429-05:00;Thread#12;Info;test results published
+2018-11-04T19:38:48.0477516-05:00;Thread#12;Info;generating reports
+2018-11-04T19:38:48.0818430-05:00;Thread#12;Info;creating 1 report(s)
+2018-11-04T19:38:48.0828451-05:00;Thread#12;Info;generate Report ReportTemplate.cshtml
+2018-11-04T19:38:53.0888211-05:00;Thread#12;Info;reports generated
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 1
+Skipped: 0
+Failed: 0
+2018-11-04T19:38:53.1008127-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-11-04T19:38:53.1008127-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\TestResults\PracticaSpecFlow.Specs_PracticaSpecFlow.Specs_2018-11-04T193832.html'
+2018-11-04T19:38:53.1379161-05:00;VSTestExecutionThread;Info;Log file: file:///D:\Datos\Personal\Calidad%20de%20Soft\SpecFlowPractica\TestResults\PracticaSpecFlow.Specs_PracticaSpecFlow.Specs_2018-11-04T193832.log

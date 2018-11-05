@@ -1,0 +1,161 @@
+﻿2018-11-04T21:39:13.1197307-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-11-04T21:39:13.1407892-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-11-04T21:39:13.1457981-05:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\PracticaSpecFlow.Specs\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-11-04T21:39:13.7334812-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-11-04T21:39:13.7344848-05:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\PracticaSpecFlow.Specs\bin\Debug\PracticaSpecFlow.Specs.dll
+2018-11-04T21:39:13.7344848-05:00;VSTestExecutionThread;Info;Profile: PracticaSpecFlow.Specs
+2018-11-04T21:39:22.1655521-05:00;Thread#15;Info;starting test run
+2018-11-04T21:39:22.2026536-05:00;Thread#15;Info;Discovering target: Default
+2018-11-04T21:39:22.2026536-05:00;Thread#15;Info;Discovering tests from assembly: D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\PracticaSpecFlow.Specs\bin\Debug\PracticaSpecFlow.Specs.dll
+Appdomain Disposed
+Test Suite Dump
+#0: PracticaSpecFlow.Specs/PracticaSpecFlow.Specs - 
+#1: Default - 
+#2: PracticaSpecFlow.Specs - 
+#3: Calculadora - 
+#5: CalculadoraResta - 
+#4: Add two numbers - TestAssembly:PracticaSpecFlow.Specs/Feature:Calculadora/Scenario:Add+two+numbers
+#6: Dado dos numeros - TestAssembly:PracticaSpecFlow.Specs/Feature:CalculadoraResta/Scenario:Dado+dos+numeros
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for PracticaSpecFlow.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have entered 50 into the calculator': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.GivenIHaveEnteredIntoTheCalculator(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.GivenIHaveEnteredIntoTheCalculator(Int32)
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have also entered 70 into the calculator': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.GivenIHaveAlsoEnteredIntoTheCalculator(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.GivenIHaveAlsoEnteredIntoTheCalculator(Int32)
+Thread#0:B:When I press add
+Thread#0:T:binding error: Ambiguous step definitions found for step 'When I press add': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.WhenIPressAdd(), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.WhenIPressAdd()
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the result should be 120 on the screen': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.ThenTheResultShouldBeOnTheScreen(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.ThenTheResultShouldBeOnTheScreen(Int32)
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 1.8469176 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have entered 50 into the calculator': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.GivenIHaveEnteredIntoTheCalculator(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.GivenIHaveEnteredIntoTheCalculator(Int32)
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have also entered 70 into the calculator': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.GivenIHaveAlsoEnteredIntoTheCalculator(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.GivenIHaveAlsoEnteredIntoTheCalculator(Int32)
+Thread#0:B:When I press add
+Thread#0:T:binding error: Ambiguous step definitions found for step 'When I press add': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.WhenIPressAdd(), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.WhenIPressAdd()
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the result should be 120 on the screen': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.ThenTheResultShouldBeOnTheScreen(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.ThenTheResultShouldBeOnTheScreen(Int32)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0100281 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have entered 50 into the calculator': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.GivenIHaveEnteredIntoTheCalculator(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.GivenIHaveEnteredIntoTheCalculator(Int32)
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have also entered 70 into the calculator': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.GivenIHaveAlsoEnteredIntoTheCalculator(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.GivenIHaveAlsoEnteredIntoTheCalculator(Int32)
+Thread#0:B:When I press add
+Thread#0:T:binding error: Ambiguous step definitions found for step 'When I press add': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.WhenIPressAdd(), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.WhenIPressAdd()
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the result should be 120 on the screen': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.ThenTheResultShouldBeOnTheScreen(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.ThenTheResultShouldBeOnTheScreen(Int32)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0110296 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I have entered 30 into the calculator
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have entered 30 into the calculator': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.GivenIHaveEnteredIntoTheCalculator(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.GivenIHaveEnteredIntoTheCalculator(Int32)
+Thread#0:B:And I have also entered 20 into the calculator
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have also entered 20 into the calculator': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.GivenIHaveAlsoEnteredIntoTheCalculator(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.GivenIHaveAlsoEnteredIntoTheCalculator(Int32)
+Thread#0:B:When I press add
+Thread#0:T:binding error: Ambiguous step definitions found for step 'When I press add': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.WhenIPressAdd(), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.WhenIPressAdd()
+Thread#0:B:Then the result should be 10 on the screen
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the result should be 10 on the screen': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.ThenTheResultShouldBeOnTheScreen(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.ThenTheResultShouldBeOnTheScreen(Int32)
+Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #6/0 is finished on thread #0 as Failed within 0.0110287 seconds
+Thread#0: Test #6/1 is started on thread #0
+Thread#0:B:Given I have entered 30 into the calculator
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have entered 30 into the calculator': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.GivenIHaveEnteredIntoTheCalculator(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.GivenIHaveEnteredIntoTheCalculator(Int32)
+Thread#0:B:And I have also entered 20 into the calculator
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have also entered 20 into the calculator': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.GivenIHaveAlsoEnteredIntoTheCalculator(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.GivenIHaveAlsoEnteredIntoTheCalculator(Int32)
+Thread#0:B:When I press add
+Thread#0:T:binding error: Ambiguous step definitions found for step 'When I press add': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.WhenIPressAdd(), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.WhenIPressAdd()
+Thread#0:B:Then the result should be 10 on the screen
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the result should be 10 on the screen': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.ThenTheResultShouldBeOnTheScreen(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.ThenTheResultShouldBeOnTheScreen(Int32)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #6/1 is finished on thread #0 as Failed within 0.0100282 seconds
+Thread#0: Test #6/2 is started on thread #0
+Thread#0:B:Given I have entered 30 into the calculator
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have entered 30 into the calculator': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.GivenIHaveEnteredIntoTheCalculator(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.GivenIHaveEnteredIntoTheCalculator(Int32)
+Thread#0:B:And I have also entered 20 into the calculator
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have also entered 20 into the calculator': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.GivenIHaveAlsoEnteredIntoTheCalculator(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.GivenIHaveAlsoEnteredIntoTheCalculator(Int32)
+Thread#0:B:When I press add
+Thread#0:T:binding error: Ambiguous step definitions found for step 'When I press add': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.WhenIPressAdd(), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.WhenIPressAdd()
+Thread#0:B:Then the result should be 10 on the screen
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the result should be 10 on the screen': PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraSteps.ThenTheResultShouldBeOnTheScreen(Int32), PracticaSpecFlow.Specs:PracticaSpecFlow.Specs.CalculadoraResta.ThenTheResultShouldBeOnTheScreen(Int32)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #6/2 is finished on thread #0 as Failed within 0.0160415 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2018-11-04T21:39:25.4262301-05:00;Thread#15;Info;test run finished
+2018-11-04T21:39:25.4282290-05:00;Thread#15;Info;publishing test results
+2018-11-04T21:39:25.6207456-05:00;Thread#15;Info;test results published
+2018-11-04T21:39:25.6217489-05:00;Thread#15;Info;generating reports
+2018-11-04T21:39:25.6397965-05:00;Thread#15;Info;creating 1 report(s)
+2018-11-04T21:39:25.6407997-05:00;Thread#15;Info;generate Report ReportTemplate.cshtml
+2018-11-04T21:39:29.1721752-05:00;Thread#15;Info;reports generated
+Total: 2 (test executions: 6)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2
+2018-11-04T21:39:29.1791556-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-11-04T21:39:29.1791556-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\TestResults\PracticaSpecFlow.Specs_PracticaSpecFlow.Specs_2018-11-04T213913.html'
+2018-11-04T21:39:29.2012165-05:00;VSTestExecutionThread;Info;Log file: file:///D:\Datos\Personal\Calidad%20de%20Soft\SpecFlowPractica\TestResults\PracticaSpecFlow.Specs_PracticaSpecFlow.Specs_2018-11-04T213913.log

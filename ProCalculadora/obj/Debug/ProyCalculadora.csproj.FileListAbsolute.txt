@@ -1,0 +1,5 @@
+D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\ProCalculadora\bin\Debug\Calculadora.dll
+D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\ProCalculadora\bin\Debug\Calculadora.pdb
+D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\ProCalculadora\obj\Debug\ProyCalculadora.csproj.CoreCompileInputs.cache
+D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\ProCalculadora\obj\Debug\Calculadora.dll
+D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\ProCalculadora\obj\Debug\Calculadora.pdb

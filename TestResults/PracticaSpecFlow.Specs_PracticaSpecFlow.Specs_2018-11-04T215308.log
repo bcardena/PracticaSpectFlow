@@ -1,0 +1,83 @@
+﻿2018-11-04T21:53:06.9952704-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-11-04T21:53:07.0133181-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-11-04T21:53:07.0143209-05:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\PracticaSpecFlow.Specs\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-11-04T21:53:08.0019499-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-11-04T21:53:08.0019499-05:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\PracticaSpecFlow.Specs\bin\Debug\PracticaSpecFlow.Specs.dll
+2018-11-04T21:53:08.0049588-05:00;VSTestExecutionThread;Info;Profile: PracticaSpecFlow.Specs
+2018-11-04T21:53:15.7834001-05:00;Thread#15;Info;starting test run
+2018-11-04T21:53:15.8104704-05:00;Thread#15;Info;Discovering target: Default
+2018-11-04T21:53:15.8114740-05:00;Thread#15;Info;Discovering tests from assembly: D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\PracticaSpecFlow.Specs\bin\Debug\PracticaSpecFlow.Specs.dll
+Appdomain Disposed
+Test Suite Dump
+#0: PracticaSpecFlow.Specs/PracticaSpecFlow.Specs - 
+#1: Default - 
+#2: PracticaSpecFlow.Specs - 
+#3: Calculadora - 
+#5: CalculadoraResta - 
+#4: Add two numbers - TestAssembly:PracticaSpecFlow.Specs/Feature:Calculadora/Scenario:Add+two+numbers
+#6: Dado dos numeros - TestAssembly:PracticaSpecFlow.Specs/Feature:CalculadoraResta/Scenario:Dado+dos+numeros
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for PracticaSpecFlow.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:done: CalculadoraResta.GivenIHaveEnteredIntoTheCalculator(50) (0.0s)
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:done: CalculadoraResta.GivenIHaveAlsoEnteredIntoTheCalculator(70) (0.0s)
+Thread#0:B:When I press add
+Thread#0:T:done: CalculadoraResta.WhenIPressAdd() (0.0s)
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:done: CalculadoraResta.ThenTheResultShouldBeOnTheScreen(120) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 1.355648 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given Entro el numero 30 en la calculadora
+Thread#0:T:done: CalculadoraSteps.GivenIHaveEnteredIntoTheCalculator(30) (0.0s)
+Thread#0:B:And tambien ingreso 20 en la calculadora
+Thread#0:T:done: CalculadoraSteps.GivenIHaveAlsoEnteredIntoTheCalculator(20) (0.0s)
+Thread#0:B:When presiono add
+Thread#0:T:done: CalculadoraSteps.WhenIPressAdd() (0.0s)
+Thread#0:B:Then el resultado debe ser 10
+Thread#0:T:done: CalculadoraSteps.ThenTheResultShouldBeOnTheScreen(10) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.0120335 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2018-11-04T21:53:17.9692132-05:00;Thread#15;Info;test run finished
+2018-11-04T21:53:17.9702153-05:00;Thread#15;Info;publishing test results
+2018-11-04T21:53:18.1192508-05:00;Thread#15;Info;test results published
+2018-11-04T21:53:18.1202548-05:00;Thread#15;Info;generating reports
+2018-11-04T21:53:18.1403021-05:00;Thread#15;Info;creating 1 report(s)
+2018-11-04T21:53:18.1403021-05:00;Thread#15;Info;generate Report ReportTemplate.cshtml
+2018-11-04T21:53:21.2546458-05:00;Thread#15;Info;reports generated
+Total: 2
+Succeeded: 2
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2018-11-04T21:53:21.2606573-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-11-04T21:53:21.2606573-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\Datos\Personal\Calidad de Soft\SpecFlowPractica\TestResults\PracticaSpecFlow.Specs_PracticaSpecFlow.Specs_2018-11-04T215308.html'
+2018-11-04T21:53:21.2824263-05:00;VSTestExecutionThread;Info;Log file: file:///D:\Datos\Personal\Calidad%20de%20Soft\SpecFlowPractica\TestResults\PracticaSpecFlow.Specs_PracticaSpecFlow.Specs_2018-11-04T215308.log
